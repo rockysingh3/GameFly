@@ -9,7 +9,8 @@ interface Props {
 }
 
 
-const GameCard = ({ content }: Props ): ReactElement => {
+const GameCard = ({ content }: Props): ReactElement => {
+
     const { id, title, thumbnail, short_description, genre } = content;
 
     const link = '/game/${id}';
@@ -20,7 +21,7 @@ const GameCard = ({ content }: Props ): ReactElement => {
             <h2>{title}</h2>
             <p>{short_description}</p>
             <p>{genre}</p>
-        </Link>       
+        </Link>
     )
 }
 
