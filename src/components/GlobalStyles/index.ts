@@ -1,7 +1,6 @@
-import { createGlobalStyle } from "styled-components";
-import { fontFamily } from "styles/fonts";
-import { primaryColor } from "styles/theme";
-
+import { createGlobalStyle } from 'styled-components'
+import { fontFamily } from 'styles/fonts'
+import { primaryColor } from 'styles/theme'
 
 const GlobalStyles = createGlobalStyle`
     html{
@@ -14,7 +13,6 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         background-color: ${primaryColor};
     }
-`;
-
+`
 
 export default GlobalStyles
