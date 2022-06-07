@@ -7,16 +7,8 @@ export const StyledLink = styled(Link)`
 
     display: inline-block;
     width: 100%;
-    background-color: ${secondaryColor}
+    background-color: ${secondaryColor};
     border-radius: 4px;
     text-decoration: none;
-
-`
-
-
-export const img = styled.img`
-
-    
-
 
 `

@@ -1,7 +1,7 @@
 import React, { ReactElement } from "react";
 import { Link } from "react-router-dom";
 import { Game } from "types";
-import { StyledLink, img } from './styles'
+import { StyledLink  } from './styles'
 
 
 interface Props {

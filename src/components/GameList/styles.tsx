@@ -6,12 +6,11 @@ export const List = styled.ul`
     max-width: 542px;
     margin: 0 auto;
     padding: 0 16px; 
-    list-tyle-type: none;
-
+    list-style-type: none;
 `
 
 
-export const ListItem = styled.li`
-	margin-bottom: 24px;
-	transition: all 0.2s ease-in-out;
-`
+// export const ListItem = styled.li`
+// 	margin-bottom: 24px;
+// 	transition: all 0.2s ease-in-out;
+// `
